@@ -1,4 +1,14 @@
-## 🚀 Overview  
+<p align="center">
+  <img src="assets/logo.png" alt="DEALVERSE Logo" width="180"/>
+</p>
+
+# DEALVERSE — Empowering Smart Deals on Web3 🔗
+
+
+
+
+
+## 🚀 Overview
 DEALVERSE is a Web3 collaboration platform that connects **investors, traders, and businesses** through **blockchain-powered smart deals**.  
 Our goal is to make deal-making **transparent, secure, and decentralized**.
 
