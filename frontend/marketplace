@@ -1,0 +1,27 @@
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Marketplace from "./Marketplace";
+
+export default function App() {
+  return (
+    <Router>
+      <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center">
+        <h1 className="text-4xl font-bold mb-6">🚀 Welcome to DEALVERSE</h1>
+        <p className="text-center mb-4">Connecting investors, traders, and businesses through smart Web3 deals.</p>
+
+        <Link
+          to="/marketplace"
+          className="px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-700"
+        >
+          Visit Marketplace
+        </Link>
+
+        <Routes>
+          <Route path="/marketplace" element={<Marketplace />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
